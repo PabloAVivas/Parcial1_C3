@@ -9,3 +9,5 @@ Se desarrollo el Backend con FastApi/Python, configurando una base de datos en P
 
 Se desarrollo el Frontend con React y Tailwind, implementando TanStack Query y React Router para poder manejar las rutas de las paginas y configurar los llamado a la API consumida del Backend.
 
+Se deja a continuacion, un link a un video de YouTube del parcial: https://youtu.be/BSPoP9RNzPA
+
