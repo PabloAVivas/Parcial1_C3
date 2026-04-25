@@ -1,61 +1,11 @@
 # Parcial1_C3
-Lista de Verificación del Proyecto Integrador
 
-Backend (FastAPI + SQLModel)
+Proyecto FULLSTACK con FastApi y React
 
-● [x ] Entorno: Uso de .venv, requirements.txt y FastAPI funcionando en modo
-dev.
+En este proyecto se desarrolla la parte Catalogo de Productos
+Donde se incluyen las tablas de Producto, Categoria e Ingrediente, estas tienen sus tablas intermedias ProductoCategoria y ProductoIngrediente
 
-● [x ] Modelado: Tablas creadas con SQLModel incluyendo relaciones
-Relationship (1:N y N:N).
+Se desarrollo el Backend con FastApi/Python, configurando una base de datos en Postgres, creando los archivos Repository, Models, Routes, Services, Schemas y configurando Unit of Work
 
-● [x ] Validación: Uso de Annotated, Query y Path para reglas de negocio (ej.
-longitudes, rangos).
+Se desarrollo el Frontend con React y Tailwind, implementando TanStack Query y React Router para poder manejar las rutas de las paginas y configurar los llamado a la API consumida del Backend.
 
-● [x ] CRUD Persistente: Endpoints funcionales para Crear, Leer, Actualizar y
-Borrar en PostgreSQL.
-
-● [x ] Seguridad de Datos: Implementación de response_model para no filtrar
-datos sensibles o innecesarios.
-
-● [x ] Estructura: Código organizado por módulos (routers, schemas, services,
-models, uow).
-
-Frontend (React + TypeScript + Tailwind)
-
-● [x ] Setup: Proyecto creado con Vite + TS y estructura de carpetas limpia.
-
-● [x ] Componentes: Uso de componentes funcionales y Props debidamente
-tipadas con interfaces.
-
-● [x ] Estilos: Interfaz construida íntegramente con clases de utilidad de Tailwind
-CSS 4.
-
-● [x ] Navegación: Configuración de react-router-dom con al menos una ruta
-dinámica (ej. /detalle/:id).
-
-● [x ] Estado Local: Uso de useState para el manejo de formularios o UI
-interactiva.
-Integración y Server State
-
-● [x ] Lectura (useQuery): Listados y detalles consumiendo datos reales de la
-API.
-
-● [x ] Escritura (useMutation): Formularios que envían datos al backend con
-éxito.
-
-● [x ] Sincronización: Uso de invalidateQueries para refrescar la UI
-automáticamente tras un cambio.
-
-● [x ] Feedback: Gestión visual de estados de "Cargando..." y "Error" en las
-peticiones.
-
-Video de Presentación
-
-● [x ] Duración: El video dura 15 minutos o menos.
-
-● [x ] Audio/Video: La voz es clara y la resolución de pantalla permite leer el
-código.
-
-● [x ] Demo: Se muestra el flujo completo desde la creación hasta la persistencia
-en la DB.
